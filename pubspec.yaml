@@ -1,0 +1,70 @@
+# The name of the package as it is used in code.
+name: algorand_dart
+
+# A clear description of your maintained fork.
+description: An actively maintained fork of the Algorand Dart SDK by NodajiFi-Tokenomy, supporting our mission to build open-source tools for a more equitable world.
+
+# This version must match your CHANGELOG.md file.
+version: 2.0.0+nodajifi.1
+
+# UPDATE THESE URLs: They now correctly point to your new repository.
+homepage: https://github.com/NodajiFi-Tokenomy/algorand-dart-nodajifi
+repository: https://github.com/NodajiFi-Tokenomy/algorand-dart-nodajifi.git
+issue_tracker: https://github.com/NodajiFi-Tokenomy/algorand-dart-nodajifi/issues
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  # Ed25519
+  cryptography: ^2.5.0
+
+  # SHA512/256
+  crypto: ^3.0.2
+
+  # Base32
+  base32: ^2.2.0
+
+  # Convert
+  convert: ^3.1.1
+
+  # Easily work with bytes
+  buffer: ^1.2.0
+
+  # Equatable
+  equatable: ^2.0.5
+
+  # JSON Annotation
+  json_annotation: ^4.8.0
+
+  # Equality
+  collection: ^1.17.0
+
+  # HTTP & REST
+  dio: ^5.9.0
+
+  retrofit: ^4.7.2
+
+  # Messagepack
+  algorand_msgpack: ^1.0.1
+
+algorand_json:
+    path: packages/algorand_json
+
+dev_dependencies:
+  # Testing framework
+  test: ^1.26.3
+
+  # Build Runner & Source Generation
+  build_runner: '>=2.7.0 <4.0.0'
+
+  # Linter
+  pedantic: ^1.11.0
+
+  # JSON Serialization
+  json_serializable: ^6.10.0
+
+  # Retrofit
+  retrofit_generator: ^10.0.2
+
+dependency_overrides:
