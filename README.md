@@ -977,7 +977,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing & Pull Requests
 
-Feel free to send pull requests. Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Feel free to send pull requests. Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 
 ## Special Thanks
